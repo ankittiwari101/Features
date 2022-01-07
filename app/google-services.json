@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "966758291436",
+    "project_id": "employee-tracker-9967d",
+    "storage_bucket": "employee-tracker-9967d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966758291436:android:7dd48e349f0b1d65fd12c9",
+        "android_client_info": {
+          "package_name": "com.ankit.features"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966758291436-5pr3gcafva67r3ds8937trrokpd5a8dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnWGfmo-o7PNaP3Sb3w7U8c1wgNYNx0BE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966758291436-5pr3gcafva67r3ds8937trrokpd5a8dn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966758291436:android:cc016befe5c8f7aefd12c9",
+        "android_client_info": {
+          "package_name": "com.example.employee_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966758291436-5pr3gcafva67r3ds8937trrokpd5a8dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnWGfmo-o7PNaP3Sb3w7U8c1wgNYNx0BE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966758291436-5pr3gcafva67r3ds8937trrokpd5a8dn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="9dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:elevation="3dp"
+        android:layout_marginRight="-100dp"
+        android:layout_weight="0.3"
+        android:background="@drawable/product_img_pg"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:layout_width="63dp"
+            android:layout_gravity="center"
+            android:id="@+id/imageview"
+            android:layout_height="63dp"
+            android:src="@drawable/person"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@drawable/product_detail_bg"
+        android:weightSum="1"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_marginLeft="35dp"
+        android:layout_weight="0.7"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="70dp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_name"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:paddingTop="2dp"
+                android:text="Ankit Tiwari"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/job_title"
+                android:textSize="15sp"
+                android:text="Developer"
+                android:gravity="top"
+                android:layout_below="@+id/tv_name"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:id="@+id/ll_salerate"
+                android:layout_below="@+id/job_title"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/rate"
+                    android:textSize="12sp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.9"
+            android:gravity="bottom"
+            android:paddingTop="5dp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text=""
+                android:id="@+id/tv_item_delete"
+                android:textColor="#000"
+                android:drawableLeft="@drawable/ic_delete"
+                android:padding="8dp"
+                android:layout_below="@+id/ll_salerate"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:id="@+id/btn_editRecord"
+                android:layout_marginTop="15dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:foregroundGravity="bottom"
+                android:src="@drawable/ic_edit"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

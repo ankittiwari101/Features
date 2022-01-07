@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!--    <include layout="@layout/header_layout" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lbl_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginTop="30dip"
+            android:textColor="#000000"
+            android:text="Name"
+            />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginTop="5dip"
+            android:hint="Enter your name"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/lbl_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:text="Surname"
+            />
+
+        <EditText
+            android:id="@+id/et_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginTop="5dip"
+            android:hint="Enter your surname"
+            android:inputType="none"
+            android:singleLine="true" />
+        <TextView
+            android:id="@+id/lbl_jobTitle"
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:textColor="#000000"
+            android:text="Job Title"
+            />
+
+        <EditText
+            android:id="@+id/et_jobTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:textSize="16dp"
+            android:hint="Enter your job title"
+            android:singleLine="true" />
+
+        <!--<TextView
+            android:id="@+id/lbl_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginTop="5dip"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="Your Redeem Amount"
+            />
+
+        <EditText
+            android:id="@+id/et_amount"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:fontFamily="@font/kanitsemibold"
+            android:layout_marginTop="5dip"
+            android:hint="\u20b9500"
+            android:editable="false"
+            android:inputType="none"
+            android:singleLine="true" />-->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:layout_marginTop="15dip"
+            android:text="Submit"
+            />
+    </LinearLayout>
+
+</LinearLayout>
